@@ -13,6 +13,6 @@ SECRETS_KEY="AES256-32-bytes-hexadecimal-string"
 SECRETS_IV="AES256-16-bytes-hexadecimal-string"
 # Example - "979f27a599b31ab7"
 ```
+- Run `npm install` to install all the dependencies
 - Run `npx prisma db push` to synchronize the database with the schema
-- Run `npm install` to install all the dependencies 
 - Run `npm run dev` to view project locally on port 3000
